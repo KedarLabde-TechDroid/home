@@ -10,10 +10,11 @@ const ExperienceCard = ({ data }) => {
           src={data.companylogo} 
           alt="" 
           style={{ 
-            width: '300px',  // 3 units
-            height: '200px', // 4 units
-            objectFit: 'contain', // Fills the container while maintaining aspect ratio, cropping if necessary
+            width: '300px',  // Width of the image container
+            height: '400px', // Height of the image container (3:4 ratio)
+            objectFit: 'contain', // Ensure the image fits inside without being cut
             borderRadius: '8px', // Optional: adds rounded corners
+            backgroundColor: '#f8f9fa', // Optional: background color for better visibility
           }} 
         />
         <p className="lead">
