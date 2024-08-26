@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/KedarLabde-TechDroid",
+      url: "https://github.com/kedar-labde",
     },
     {
       image: "fa-facebook",
@@ -66,8 +66,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "KedarLabde-TechDroid", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "kedar-labde", //i.e."johnDoe12Gh"
+  reposLength: 2,
   specificRepos: [],
 };
 
@@ -141,7 +141,7 @@ const experiences = {
     },
     {
       role: 'Senior Software Engineer',
-      companylogo: require('../assets/img/fulcrum.svg'),
+      companylogo: require('../assets/img/fulcrum.png'),
       date: 'Mar 2019 – Mar 2020',
     },
     {
