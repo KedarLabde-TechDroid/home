@@ -10,9 +10,9 @@ const ExperienceCard = ({ data }) => {
           src={data.companylogo} 
           alt="" 
           style={{ 
-            width: '400px',  // 3 units
-            height: '300px', // 4 units
-            objectFit: 'cover', // Fills the container while maintaining aspect ratio, cropping if necessary
+            width: '300px',  // 3 units
+            height: '200px', // 4 units
+            objectFit: 'contain', // Fills the container while maintaining aspect ratio, cropping if necessary
             borderRadius: '8px', // Optional: adds rounded corners
           }} 
         />
