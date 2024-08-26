@@ -9,7 +9,7 @@ const ExperienceCard = ({ data }) => {
           className="bg-white mb-3" 
           src={data.companylogo} 
           alt="" 
-          style={{ width: '200px', height: '200px', objectFit: 'cover' }} 
+          style={{ width: '512px', height: '512px', objectFit: 'cover' }} 
         />
         <p className="lead">
           {data.role}
