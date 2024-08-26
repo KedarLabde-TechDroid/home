@@ -71,27 +71,26 @@ const repos = {
   specificRepos: [],
 };
 
-// Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "With over 9.5 years of experience in mobile application development, I have successfully led multiple teams through complex projects, consistently delivering high-quality products on time. My leadership style focuses on fostering collaboration, driving innovation, and ensuring clear communication across all levels of the team. I have a proven track record in guiding projects from concept to completion, mentoring junior developers, and coordinating with senior management to align technical solutions with business objectives. My approach is to lead by example, always prioritizing the development of a supportive and dynamic work environment.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/kedar.jpg"), 
+      label: "Mentoring Team Members", 
+      paragraph: "Guided junior developers through challenging tasks, ensuring their growth and development while maintaining high project standards." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/kedar.jpg"), 
+      label: "Driving Innovation", 
+      paragraph: "Led the implementation of cutting-edge technologies, such as Jetpack Compose and Flutter, to enhance the user experience and optimize development processes." 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
 
