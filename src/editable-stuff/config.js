@@ -78,12 +78,12 @@ const leadership = {
     "With over 9.5 years of experience in mobile application development, I have successfully led multiple teams through complex projects, consistently delivering high-quality products on time. My leadership style focuses on fostering collaboration, driving innovation, and ensuring clear communication across all levels of the team. I have a proven track record in guiding projects from concept to completion, mentoring junior developers, and coordinating with senior management to align technical solutions with business objectives. My approach is to lead by example, always prioritizing the development of a supportive and dynamic work environment.",
   images: [
     { 
-      img: require("../editable-stuff/kedar.jpg"), 
+      img: require("../editable-stuff/mentorship.png"), 
       label: "Mentoring Team Members", 
       paragraph: "Guided junior developers through challenging tasks, ensuring their growth and development while maintaining high project standards." 
     },
     { 
-      img: require("../editable-stuff/kedar.jpg"), 
+      img: require("../editable-stuff/innovation.png"), 
       label: "Driving Innovation", 
       paragraph: "Led the implementation of cutting-edge technologies, such as Jetpack Compose and Flutter, to enhance the user experience and optimize development processes." 
     },

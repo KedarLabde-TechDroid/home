@@ -7,7 +7,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
     <Jumbotron
       id="leadership"
       className="m-0"
-      style={{ backgroundColor: "white" }} // Background color of the Jumbotron
+      style={{ backgroundColor: "white" }}
     >
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
@@ -19,30 +19,18 @@ const Leadership = ({ heading, message, img, imageSize }) => {
             {img.map((value, index) => {
               return (
                 <Carousel.Item key={index}>
-                  <div 
-                    style={{
-                      width: '100%',
-                      height: imageSize.height,
-                      backgroundColor: '#f8f9fa', // Set fill color or background color
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center'
-                    }}
-                  >
-                    <img
-                      src={value.img}
-                      alt={value.label}
-                      style={{ 
-                        maxWidth: '100%',
-                        maxHeight: '100%',
-                        objectFit: 'cover',
-                        display: 'block'
-                      }}
-                    />
-                  </div>
+                  <img
+                    className="d-block w-100"
+                    src={value.img}
+                    alt="First slide"
+                    width={imageSize.width}
+                    height={imageSize.height}
+                  />
                   <Carousel.Caption>
                     <h3>{value.label}</h3>
-                    <p>{value.paragraph}</p>
+                    <p>
+                      {value.paragraph}
+                    </p>
                   </Carousel.Caption>
                 </Carousel.Item>
               );
